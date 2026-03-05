@@ -732,7 +732,22 @@ $(function () {
  
 
 
- 						} else if (data.success == "2") {
+ 						} 
+						else if (data.success == "11") {
+
+	playsound("Please try again");
+ 							evdata.data.btn.click();
+ 							/* 
+document.getElementById("msg1").innerHTML=data.value;
+document.getElementById("msg").innerHTML=data.num; */
+ 						 
+narn("error", "ýalňyşlyk","", "Gaýtadan işlenilmeýän aýna çüýşeler.");
+
+
+
+ 						} 
+						
+						else if (data.success == "2") {
 
 	playsound("Please try again");
  							evdata.data.btn.click();
