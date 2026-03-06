@@ -61,7 +61,15 @@ body {
 
 <body>
  
-	
+	 <?php 
+ include("IncDB.php");
+ 	$sql="update command set command = 2  ";
+ mysqli_query($link,$sql);
+			 
+
+ 
+ ?>
+ 
 	
 
    <div class="fakeloader" style="margin-top:260px;margin-left:18px"></div>
